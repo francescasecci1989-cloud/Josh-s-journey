@@ -1,17 +1,20 @@
-COME USARE IL GIOCO
+JOSH'S JOURNEY — FILES TO UPLOAD TO GITHUB
 
-1. Apri index.html con un browser.
-2. Per pubblicarlo gratis, carica l'intera cartella su Netlify Drop, GitHub Pages o Vercel.
-3. Per aggiungerlo alla schermata Home su iPhone:
-   - apri il link in Safari
-   - premi Condividi
-   - scegli “Aggiungi alla schermata Home”
+Replace the old website files with everything contained in this folder:
 
-PERSONALIZZAZIONE
-- Testi e tappe: file script.js
-- Grafica e colori: file style.css
-- Lettera finale: file index.html
-- Musica: inserisci un file chiamato music.mp3 nella cartella
+index.html
+style.css
+script.js
+manifest.json
+assets/ (the entire folder with all seven .webp images)
 
-NOTA
-La versione funziona anche senza musica. Le illustrazioni attuali sono grafiche leggere integrate; possono essere sostituite con immagini personalizzate.
+IMPORTANT:
+The files must be in the root of the GitHub repository.
+The assets folder must remain a folder.
+
+After uploading:
+1. Commit changes.
+2. Wait about one minute.
+3. Reload the GitHub Pages link.
+
+This version is entirely in English, uses the illustrated scenes instead of emoji, and includes the new emotional ending.

@@ -1,15 +1,8 @@
 {
-  "name": "From Dorking to Terni",
-  "short_name": "Dorking→Terni",
-  "start_url": "./index.html",
+  "name": "Josh's Journey",
+  "short_name": "Josh's Journey",
+  "start_url": "./",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#111827",
-  "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ]
+  "background_color": "#090d18",
+  "theme_color": "#090d18"
 }

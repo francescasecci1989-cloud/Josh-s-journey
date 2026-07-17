@@ -1,154 +1,139 @@
-
 const scenes = [
   {
-    location:"Dorking",
-    title:"La partenza",
-    text:"È mattina a Dorking. La valigia è pronta, il telefono è carico e fuori dalla finestra comincia un viaggio speciale.",
-    emoji:"🏡🧳",
-    choices:["Controlla il passaporto","Scrivi a Francesca: «Sto partendo»"]
+    image:"assets/01_home.webp",
+    alt:"Josh standing outside his home in Dorking beside his Triumph motorcycle.",
+    chapter:"Chapter One · Dorking",
+    title:"The morning everything begins",
+    body:[
+      "The bike is ready. The road is waiting.",
+      "Behind you is everything familiar. Ahead of you is a different country, a different life, and someone counting the days until you arrive."
+    ],
+    choices:["Take one last look at home","Start the journey"]
   },
   {
-    location:"Casa",
-    title:"Saluta Mum",
-    text:"Prima di andare, Mum ti stringe forte e ti ricorda di mangiare, riposarti e mandare un messaggio appena arrivi.",
-    emoji:"👩‍👦❤️",
-    choices:["Prometti che lo farai","Abbracciala ancora più forte"]
+    image:"assets/03_breakfast.webp",
+    alt:"Josh having breakfast with his parents while a map lies on the table.",
+    chapter:"Chapter Two · Home",
+    title:"One last breakfast",
+    body:[
+      "Tea, coffee, a map spread across the table, and the kind of conversation that tries to make a goodbye feel ordinary.",
+      "Mum asks whether you packed everything. Dad checks the route again. They both already know the truth: this journey means more than any map can show."
+    ],
+    choices:["Thank Mum","Thank Dad"]
   },
   {
-    location:"Casa",
-    title:"Saluta Dad",
-    text:"Dad controlla la strada, le prenotazioni e la mappa un’ultima volta. Poi sorride: sa che questo viaggio significa molto.",
-    emoji:"👨‍👦🗺️",
-    choices:["Ringrazialo per l’aiuto","Digli che andrà tutto bene"]
+    image:"assets/02_mum_hug.webp",
+    alt:"Josh hugging his mother outside their home.",
+    chapter:"Chapter Three · Goodbye",
+    title:"The hardest part of leaving",
+    body:[
+      "Some goodbyes do not need many words.",
+      "You hold on for one more second, carrying with you the love of the people who made this place home long before you knew you would find another."
+    ],
+    choices:["Promise to call","Hold her a little tighter"]
   },
   {
-    location:"Casa",
-    title:"I gatti",
-    text:"I gatti ti osservano come se avessero già capito tutto. Uno si avvicina alla valigia, l’altro finge di non essere triste.",
-    emoji:"🐈🐈‍⬛",
-    choices:["Fai una coccola a entrambi","Prometti dei regalini dall’Italia"]
+    image:"assets/04_leave_dorking.webp",
+    alt:"Josh leaving Dorking on his motorcycle while two cats watch from the roadside.",
+    chapter:"Chapter Four · The road",
+    title:"Leaving Dorking",
+    body:[
+      "The engine starts. The cats watch from the pavement. The familiar streets begin to disappear behind you.",
+      "For the first time, the distance ahead feels smaller than the reason you are travelling."
+    ],
+    choices:["Look back once","Keep going"]
   },
   {
-    location:"Dorking",
-    title:"Mark ti aspetta",
-    text:"Mark è pronto per l’ultimo saluto prima della partenza. Tra battute e consigli, cerca di non rendere il momento troppo sentimentale.",
-    emoji:"🤝🍻",
-    choices:["Fate una foto insieme","Prometti una videochiamata dall’Italia"]
+    image:"assets/05_italy_border.webp",
+    alt:"Josh approaching the Italian border by motorcycle in the mountains.",
+    chapter:"Chapter Five · The crossing",
+    title:"One kilometre from Italy",
+    body:[
+      "Roads turn into mountains. Hours become days. Every border crossed brings you closer.",
+      "Then the sign appears: Italy, one kilometre.",
+      "You have never been so far from where you started, or so close to where you want to be."
+    ],
+    choices:["Take a breath","Cross the border"]
   },
   {
-    location:"Verso l’aeroporto",
-    title:"La strada",
-    text:"Le case di Dorking scorrono fuori dal finestrino. Ogni chilometro ti allontana da casa e ti avvicina a una nuova casa.",
-    emoji:"🚗🌧️",
-    choices:["Guarda il paesaggio","Rileggi i messaggi di Francesca"]
+    image:"assets/06_terni_walk.webp",
+    alt:"Josh and Francesca walking hand in hand through Terni at sunset.",
+    chapter:"Chapter Six · Terni",
+    title:"The city becomes ours",
+    body:[
+      "At last, there are no screens between us. No countdown. No airport goodbye waiting at the end of the day.",
+      "Just your hand in mine, warm streets, evening lights, and the quiet feeling that this is where the next chapter begins."
+    ],
+    choices:["Walk a little slower","Hold her hand tighter"]
   },
   {
-    location:"Aeroporto",
-    title:"Il check-in",
-    text:"Valigia consegnata. Controlli superati. Ora non resta che aspettare il gate, con quella strana emozione tra ansia e felicità.",
-    emoji:"🛫🎫",
-    choices:["Prendi un caffè","Controlla il gate per la decima volta"]
-  },
-  {
-    location:"In volo",
-    title:"Sopra le nuvole",
-    text:"Il Regno Unito scompare sotto le nuvole. Davanti a te ci sono l’Italia, Terni e una persona che conta i minuti.",
-    emoji:"✈️☁️",
-    choices:["Guarda fuori dal finestrino","Scrivi: «Sono quasi da te»"]
-  },
-  {
-    location:"Italia",
-    title:"Benvenuto",
-    text:"L’aria è diversa, i cartelli sono in italiano e il viaggio non è ancora finito. Ma ormai la distanza sembra piccolissima.",
-    emoji:"🇮🇹☀️",
-    choices:["Recupera la valigia","Cerca subito il treno"]
-  },
-  {
-    location:"Verso Terni",
-    title:"L’ultimo tratto",
-    text:"Il paesaggio cambia. Le colline umbre compaiono fuori dal finestrino e sul telefono arriva un messaggio: «Dove sei?»",
-    emoji:"🚆🌄",
-    choices:["Rispondi: «Vicino»","Fai una foto dal finestrino"]
-  },
-  {
-    location:"Terni",
-    title:"La stazione",
-    text:"Le porte si aprono. Scendi con la valigia e per un secondo tutto il resto diventa silenzioso.",
-    emoji:"🚉💓",
-    choices:["Guardati intorno","Segui il cuore"]
-  },
-  {
-    location:"Terni",
-    title:"Finalmente",
-    text:"E poi la vedi. Francesca è lì. Il viaggio finisce in un abbraccio che vale ogni chilometro.",
-    emoji:"🫂❤️",
-    choices:["Corri da lei","Stringila forte"]
+    image:"assets/07_terni_sunset.webp",
+    alt:"Josh and Francesca sitting together above Terni at sunset beside the motorcycle.",
+    chapter:"Final Chapter · Together",
+    title:"Not the end of the road",
+    body:[
+      "You look out over Terni as the last light settles over the city.",
+      "The journey brought you here. Love is what made you stay."
+    ],
+    choices:["Watch the sunset","Finish the story"]
   }
 ];
 
-let current = 0;
-let soundOn = true;
+let current=0;
+const intro=document.getElementById("intro");
+const story=document.getElementById("story");
+const ending=document.getElementById("ending");
+const image=document.getElementById("sceneImage");
+const chapter=document.getElementById("chapter");
+const title=document.getElementById("title");
+const body=document.getElementById("body");
+const actions=document.getElementById("actions");
+const progress=document.getElementById("progressFill");
 
-const startScreen = document.getElementById("startScreen");
-const gameScreen = document.getElementById("gameScreen");
-const endScreen = document.getElementById("endScreen");
-const bgMusic = document.getElementById("bgMusic");
-
-document.getElementById("startBtn").addEventListener("click", () => {
-  startScreen.classList.remove("active");
-  gameScreen.classList.add("active");
-  renderScene();
-  bgMusic.volume = 0.22;
-  bgMusic.play().catch(() => {});
+document.getElementById("startBtn").addEventListener("click",()=>{
+  intro.classList.remove("active");
+  story.classList.add("active");
+  render();
 });
 
-document.getElementById("soundBtn").addEventListener("click", (e) => {
-  soundOn = !soundOn;
-  bgMusic.muted = !soundOn;
-  e.currentTarget.textContent = soundOn ? "🔊" : "🔇";
-});
-
-document.getElementById("letterBtn").addEventListener("click", () => {
-  document.getElementById("loveLetter").classList.remove("hidden");
-  document.getElementById("letterBtn").style.display = "none";
-});
-
-document.getElementById("restartBtn").addEventListener("click", () => {
-  current = 0;
-  endScreen.classList.remove("active");
-  startScreen.classList.add("active");
-  document.getElementById("loveLetter").classList.add("hidden");
-  document.getElementById("letterBtn").style.display = "";
-  bgMusic.pause();
-  bgMusic.currentTime = 0;
-});
-
-function renderScene(){
-  const scene = scenes[current];
-  document.getElementById("sceneNumber").textContent = `Tappa ${current + 1} di ${scenes.length}`;
-  document.getElementById("sceneLocation").textContent = scene.location;
-  document.getElementById("sceneTitle").textContent = scene.title;
-  document.getElementById("sceneText").textContent = scene.text;
-  document.getElementById("sceneArt").innerHTML = `<div class="emoji-art">${scene.emoji}</div>`;
-  document.getElementById("progressBar").style.width = `${((current + 1) / scenes.length) * 100}%`;
-
-  const choices = document.getElementById("choices");
-  choices.innerHTML = "";
-  scene.choices.forEach((choice) => {
-    const btn = document.createElement("button");
-    btn.className = "choice-btn";
-    btn.textContent = choice;
-    btn.addEventListener("click", nextScene);
-    choices.appendChild(btn);
+function render(){
+  const s=scenes[current];
+  image.src=s.image;
+  image.alt=s.alt;
+  image.style.animation="none";
+  void image.offsetWidth;
+  image.style.animation="";
+  chapter.textContent=s.chapter;
+  title.textContent=s.title;
+  body.innerHTML=s.body.map(p=>`<p>${p}</p>`).join("");
+  progress.style.width=`${((current+1)/scenes.length)*100}%`;
+  actions.innerHTML="";
+  s.choices.forEach(label=>{
+    const b=document.createElement("button");
+    b.className="choice";
+    b.textContent=label;
+    b.addEventListener("click",next);
+    actions.appendChild(b);
   });
 }
 
-function nextScene(){
-  if(current < scenes.length - 1){
-    current++;
-    renderScene();
-  } else {
-    gameScreen.classList.remove("active");
-    endScreen.classList.add("active");
+function next(){
+  if(current<scenes.length-1){current++;render();}
+  else{
+    story.classList.remove("active");
+    ending.classList.add("active");
   }
 }
+
+document.getElementById("letterBtn").addEventListener("click",()=>{
+  document.getElementById("letter").classList.remove("hidden");
+  document.getElementById("letterBtn").style.display="none";
+});
+
+document.getElementById("restartBtn").addEventListener("click",()=>{
+  current=0;
+  ending.classList.remove("active");
+  intro.classList.add("active");
+  document.getElementById("letter").classList.add("hidden");
+  document.getElementById("letterBtn").style.display="";
+});
