@@ -23,12 +23,45 @@
         <p class="kicker">JOSH'S JOURNEY</p>
         <h1 id="title"></h1>
         <p id="text"></p>
-
         <div id="choices" class="choices"></div>
         <button id="backButton" class="back" type="button">Back</button>
       </article>
     </section>
   </main>
+
+  
+<div id="letterOverlay" class="letter-overlay hidden" aria-hidden="true">
+  <div class="envelope" id="envelope">
+    <div class="envelope-label">For Josh</div>
+    <button id="openEnvelope" class="open-envelope" type="button">Open</button>
+  </div>
+
+  <article id="letterPaper" class="letter-paper hidden">
+    <button id="closeLetter" class="close-letter" type="button" aria-label="Close letter">×</button>
+    <p>My love,</p>
+    <p>
+      This journey was a very long one. You left your home, your family, Silas and Benson,
+      your friends and everything familiar, then crossed the sea, France, the mountains and
+      almost an entire country to reach me.
+    </p>
+    <p>
+      I know it was not just a line on a map. It was hours on the road, tiredness, distance
+      and a huge effort. That is why it means so much to me that you did it.
+    </p>
+    <p>
+      This little story is my way of showing you that I remember every part of that journey
+      and how special it was to finally see you arrive in Terni.
+    </p>
+    <p>
+      Thank you for coming all that way for me, and thank you for being such an important
+      part of my life. I am so happy that, after all those kilometres, we found each other
+      at the end of the road.
+    </p>
+    <p class="letter-ending">I love you.</p>
+    <p class="signature">Francesca</p>
+    <button id="restartFromLetter" class="restart-letter" type="button">Start the journey again</button>
+  </article>
+</div>
 
   <script src="script.js"></script>
 </body>

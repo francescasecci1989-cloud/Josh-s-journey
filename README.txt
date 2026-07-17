@@ -1,16 +1,11 @@
-JOSH'S JOURNEY — 20 SCENES
+JOSH'S JOURNEY — CORRECTED IMAGE ORDER + LETTER
 
-HOW TO UPDATE GITHUB
+Upload these items to the root of the existing GitHub repository:
+- index.html
+- style.css
+- script.js
+- the entire assets folder
 
-1. Open your GitHub repository: Josh-s-journey
-2. Delete or replace the old files.
-3. Upload:
-   - index.html
-   - style.css
-   - script.js
-   - the complete assets folder
-4. Commit the changes.
-5. Wait one or two minutes and refresh the GitHub Pages link.
-
-IMPORTANT:
-Keep the assets folder exactly as it is. Do not upload the images outside it.
+Replace the older versions of the same files.
+Keep the assets folder intact.
+After committing, wait one or two minutes and refresh GitHub Pages.

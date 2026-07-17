@@ -3,7 +3,7 @@ const scenes = [
     "image": "assets/scene-01.webp",
     "title": "The Beginning",
     "location": "Dorking",
-    "text": "It starts in Dorking, outside the house you know so well, with your red Triumph ready beside you. Today the road does not lead to another ordinary place. It leads to me.",
+    "text": "It starts in Dorking, outside the house you know so well, with your red Triumph ready beside you. Today the road leads somewhere very important: to me.",
     "choices": [
       "Take one last look",
       "Start the journey"
@@ -13,7 +13,7 @@ const scenes = [
     "image": "assets/scene-02.webp",
     "title": "Breakfast with Mum and Dad",
     "location": "Home",
-    "text": "One last breakfast together before leaving. Coffee, food, the map on the table, and all the normal little things that make home feel like home.",
+    "text": "One last breakfast together before leaving. Coffee, food, the map on the table, and all the familiar little things that make home feel like home.",
     "choices": [
       "Listen to Mum",
       "Check the map with Dad"
@@ -23,7 +23,7 @@ const scenes = [
     "image": "assets/scene-03.webp",
     "title": "Goodbye, Mum",
     "location": "Outside Home",
-    "text": "A long hug before leaving. No dramatic speech, just the kind of goodbye that says everything without needing many words.",
+    "text": "A long hug before leaving. No big speech, just a goodbye that says everything without needing many words.",
     "choices": [
       "Promise to call",
       "Hug her again"
@@ -36,7 +36,7 @@ const scenes = [
     "text": "Dad goes through the route with you one last time, making sure you know where you are going and that everything is ready.",
     "choices": [
       "Fold the map",
-      "Remember his advice"
+      "Remember the route"
     ]
   },
   {
@@ -61,79 +61,79 @@ const scenes = [
   },
   {
     "image": "assets/scene-07.webp",
-    "title": "Leaving Dorking",
-    "location": "Howard Road",
-    "text": "The bags are tied down and the engine is running. You leave Howard Road behind and begin the long ride south.",
+    "title": "Leaving Howard Road",
+    "location": "Dorking",
+    "text": "The bags are tied down and the engine is running. You turn onto Howard Road and the journey finally begins.",
+    "choices": [
+      "Look down the road",
+      "Ride away"
+    ]
+  },
+  {
+    "image": "assets/scene-08.webp",
+    "title": "One Last Look Back",
+    "location": "Dorking",
+    "text": "For one last moment, home and the cats are still behind you. Then you face the road and continue towards the coast.",
     "choices": [
       "Look back once",
       "Keep moving"
     ]
   },
   {
-    "image": "assets/scene-08.webp",
+    "image": "assets/scene-09.webp",
     "title": "The English Road",
     "location": "Surrey",
-    "text": "The roads are familiar at first. Green hills, small villages and the feeling that every mile is taking you further from home and closer to me.",
+    "text": "Green hills, small villages and miles of road ahead. With every turn, England becomes a little more distant and Terni a little closer.",
     "choices": [
       "Enjoy the road",
       "Think about Terni"
     ]
   },
   {
-    "image": "assets/scene-09.webp",
+    "image": "assets/scene-10.webp",
     "title": "The White Cliffs",
     "location": "The Coast",
-    "text": "At the coast, England is almost behind you. The white cliffs are the last familiar view before the crossing.",
+    "text": "At the edge of England, the white cliffs rise above the sea. They are the last familiar view before the crossing.",
     "choices": [
       "Watch the sea",
       "Head to the ferry"
     ]
   },
   {
-    "image": "assets/scene-10.webp",
+    "image": "assets/scene-11.webp",
     "title": "The Ferry",
     "location": "English Channel",
-    "text": "The bike is parked and the sea stretches out around you. England is behind you now, and Europe is waiting on the other side.",
+    "text": "The bike is parked and the sea stretches out around you. England is behind you now, and the rest of the journey is waiting on the other side.",
     "choices": [
       "Look at the cliffs",
       "Look towards France"
     ]
   },
   {
-    "image": "assets/scene-11.webp",
+    "image": "assets/scene-12.webp",
     "title": "France",
     "location": "France",
-    "text": "A new country, new roads and a long way still to go. But the journey is moving forward exactly as planned.",
+    "text": "A new country, new roads and a long way still to go. But the journey is moving forward, one kilometre at a time.",
     "choices": [
       "Follow the signs",
       "Continue south"
     ]
   },
   {
-    "image": "assets/scene-12.webp",
-    "title": "Towards the Alps",
-    "location": "The Mountains",
-    "text": "The road begins to climb and the landscape changes. The mountains make the journey feel bigger, but Italy is getting close.",
-    "choices": [
-      "Slow down for the view",
-      "Keep climbing"
-    ]
-  },
-  {
     "image": "assets/scene-13.webp",
     "title": "Italy, One Kilometre",
-    "location": "The Border",
-    "text": "Then you see it: Italy, one kilometre. After all those roads, the country you have been travelling towards is finally in front of you.",
+    "location": "The Alps",
+    "text": "After the long roads through France and the mountains, the sign finally appears: Italy is only one kilometre away.",
     "choices": [
-      "Take it in",
-      "Cross the border"
+      "Take in the view",
+      "Ride the final kilometre"
     ]
   },
   {
     "image": "assets/scene-14.webp",
     "title": "Welcome to Italy",
-    "location": "Italy",
-    "text": "You pass the border and enter Italy. The language changes, the signs change, and Terni is no longer impossibly far away.",
+    "location": "The Border",
+    "text": "You cross the border and enter Italy. The language changes, the signs change, and Terni no longer feels impossibly far away.",
     "choices": [
       "Send me a message",
       "Keep riding"
@@ -143,7 +143,7 @@ const scenes = [
     "image": "assets/scene-15.webp",
     "title": "Through Umbria",
     "location": "Umbria",
-    "text": "The road runs through green hills and quiet countryside. This is the last part of the journey, and now you are very close.",
+    "text": "The road runs through green hills and quiet countryside. This is the final part of the journey, and now you are very close.",
     "choices": [
       "Follow the road",
       "Count the kilometres"
@@ -153,7 +153,7 @@ const scenes = [
     "image": "assets/scene-16.webp",
     "title": "Terni",
     "location": "Terni",
-    "text": "At last, the sign appears. You have reached Terni. The city you had only seen through photos and video calls is finally real.",
+    "text": "At last, the sign appears. The city you had only seen through photos and video calls is finally right in front of you.",
     "choices": [
       "Enter the city",
       "Look for me"
@@ -163,7 +163,7 @@ const scenes = [
     "image": "assets/scene-17.webp",
     "title": "Almost There",
     "location": "Above Terni",
-    "text": "From above, you can see the whole city. After such a long road, there is only one place left to go.",
+    "text": "From above, you can see the whole city. After such a long journey, there is only one place left to go.",
     "choices": [
       "Look at the view",
       "Come and find me"
@@ -183,7 +183,7 @@ const scenes = [
     "image": "assets/scene-19.webp",
     "title": "Together in Terni",
     "location": "Galleria del Corso",
-    "text": "We walk through Terni hand in hand. After all those kilometres, this is the simple moment the whole journey was leading to.",
+    "text": "We walk through Terni hand in hand. After all those kilometres, this simple moment is what the whole journey was leading to.",
     "choices": [
       "Walk with me",
       "Stay close"
@@ -191,18 +191,17 @@ const scenes = [
   },
   {
     "image": "assets/scene-20.webp",
-    "title": "For You",
+    "title": "The End of the Journey",
     "location": "Together",
-    "text": "You travelled from Dorking to Terni, crossing roads, borders and countries to reach me. This little story is about your journey, but also about everything that brought us together. Thank you for choosing me, for making the distance feel worth it, and for becoming such an important part of my life. Wherever the road takes us next, I am happy that I get to travel it with you. I love you.",
+    "text": "The sun sets over Terni. The road from Dorking was long, but you made it all the way here.",
     "choices": [
-      "Read it again",
-      "Start from the beginning"
+      "Open the letter",
+      "Stay here a moment"
     ]
   }
 ];
 
 let current = 0;
-
 const sceneImage = document.getElementById("sceneImage");
 const background = document.getElementById("background");
 const title = document.getElementById("title");
@@ -211,20 +210,20 @@ const locationLabel = document.getElementById("location");
 const counter = document.getElementById("counter");
 const choices = document.getElementById("choices");
 const backButton = document.getElementById("backButton");
+const letterOverlay = document.getElementById("letterOverlay");
+const envelope = document.getElementById("envelope");
+const letterPaper = document.getElementById("letterPaper");
 
 function renderScene() {
   const scene = scenes[current];
-
   sceneImage.src = scene.image;
   sceneImage.alt = scene.title;
   background.style.backgroundImage = `url("${scene.image}")`;
-
   title.textContent = scene.title;
   text.textContent = scene.text;
   locationLabel.textContent = scene.location;
   counter.textContent = `${current + 1} / ${scenes.length}`;
   backButton.disabled = current === 0;
-
   choices.innerHTML = "";
 
   scene.choices.forEach((label, index) => {
@@ -234,16 +233,28 @@ function renderScene() {
     button.textContent = label;
 
     button.addEventListener("click", () => {
-      if (current < scenes.length - 1) {
-        current += 1;
-      } else {
-        current = index === 0 ? scenes.length - 1 : 0;
+      if (current === scenes.length - 1) {
+        if (index === 0) showEnvelope();
+        return;
       }
+      current += 1;
       renderScene();
     });
 
     choices.appendChild(button);
   });
+}
+
+function showEnvelope() {
+  letterOverlay.classList.remove("hidden");
+  letterOverlay.setAttribute("aria-hidden", "false");
+  envelope.classList.remove("hidden");
+  letterPaper.classList.add("hidden");
+}
+
+function closeLetter() {
+  letterOverlay.classList.add("hidden");
+  letterOverlay.setAttribute("aria-hidden", "true");
 }
 
 backButton.addEventListener("click", () => {
@@ -253,8 +264,21 @@ backButton.addEventListener("click", () => {
   }
 });
 
-document.addEventListener("keydown", (event) => {
-  if (event.key === "ArrowLeft") backButton.click();
+document.getElementById("openEnvelope").addEventListener("click", () => {
+  envelope.classList.add("hidden");
+  letterPaper.classList.remove("hidden");
+});
+
+document.getElementById("closeLetter").addEventListener("click", closeLetter);
+
+document.getElementById("restartFromLetter").addEventListener("click", () => {
+  closeLetter();
+  current = 0;
+  renderScene();
+});
+
+letterOverlay.addEventListener("click", (event) => {
+  if (event.target === letterOverlay) closeLetter();
 });
 
 renderScene();
