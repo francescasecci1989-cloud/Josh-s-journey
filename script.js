@@ -3,141 +3,201 @@ const scenes = [
     "image": "assets/scene-01.webp",
     "title": "The Beginning",
     "location": "Dorking",
-    "text": "Every great journey begins with a decision. Today, Josh leaves the place he knows to travel towards the life waiting for him.",
-    "button": "Begin the journey"
+    "text": "It starts in Dorking, outside the house you know so well, with your red Triumph ready beside you. Today the road does not lead to another ordinary place. It leads to me.",
+    "choices": [
+      "Take one last look",
+      "Start the journey"
+    ]
   },
   {
     "image": "assets/scene-02.webp",
-    "title": "One Last Breakfast",
+    "title": "Breakfast with Mum and Dad",
     "location": "Home",
-    "text": "Mum, Dad and Josh sit together around the kitchen table. The map is open, the coffee is warm, and everyone knows this morning is different.",
-    "button": "Stay a little longer"
+    "text": "One last breakfast together before leaving. Coffee, food, the map on the table, and all the normal little things that make home feel like home.",
+    "choices": [
+      "Listen to Mum",
+      "Check the map with Dad"
+    ]
   },
   {
     "image": "assets/scene-03.webp",
-    "title": "Mum",
+    "title": "Goodbye, Mum",
     "location": "Outside Home",
-    "text": "Some goodbyes need no speech. Just one long hug, one promise to call, and the certainty that love can travel any distance.",
-    "button": "Promise to call"
+    "text": "A long hug before leaving. No dramatic speech, just the kind of goodbye that says everything without needing many words.",
+    "choices": [
+      "Promise to call",
+      "Hug her again"
+    ]
   },
   {
     "image": "assets/scene-04.webp",
-    "title": "Dad and the Map",
+    "title": "Dad and the Route",
     "location": "Dorking",
-    "text": "Dad checks the route one last time. Roads, borders and mountains are traced beneath his finger. His advice is simple: take care, trust yourself, and keep going.",
-    "button": "Remember the route"
+    "text": "Dad goes through the route with you one last time, making sure you know where you are going and that everything is ready.",
+    "choices": [
+      "Fold the map",
+      "Remember his advice"
+    ]
   },
   {
     "image": "assets/scene-05.webp",
-    "title": "The Cats",
+    "title": "Silas and Benson",
     "location": "Home",
-    "text": "The cats wait by the door, watching everything with suspicious eyes. Josh gives them one final goodbye before the engine starts.",
-    "button": "Say goodbye"
+    "text": "Silas and Benson watch you getting ready to leave. You stop for one last moment with them before starting the bike.",
+    "choices": [
+      "Stroke Silas",
+      "Say goodbye to Benson"
+    ]
   },
   {
     "image": "assets/scene-06.webp",
-    "title": "Mark",
+    "title": "One Last Pint with Mark",
     "location": "The Star Pub",
-    "text": "Before leaving, there is time for one last drink with Mark. They laugh, raise their glasses and make the kind of promise old friends never need to explain.",
-    "button": "Cheers to the road"
+    "text": "Before the long road, there is time for one last pint with Mark. A laugh, a drink, and a proper goodbye between friends.",
+    "choices": [
+      "Raise your glass",
+      "Promise to stay in touch"
+    ]
   },
   {
     "image": "assets/scene-07.webp",
     "title": "Leaving Dorking",
     "location": "Howard Road",
-    "text": "The bike is packed. The street is quiet. Josh turns onto the road and watches Dorking begin to disappear behind him.",
-    "button": "Keep going"
+    "text": "The bags are tied down and the engine is running. You leave Howard Road behind and begin the long ride south.",
+    "choices": [
+      "Look back once",
+      "Keep moving"
+    ]
   },
   {
     "image": "assets/scene-08.webp",
     "title": "The English Road",
     "location": "Surrey",
-    "text": "The familiar countryside opens ahead. Every mile makes the journey more real, and every turn brings Italy a little closer.",
-    "button": "Follow the road"
+    "text": "The roads are familiar at first. Green hills, small villages and the feeling that every mile is taking you further from home and closer to me.",
+    "choices": [
+      "Enjoy the road",
+      "Think about Terni"
+    ]
   },
   {
     "image": "assets/scene-09.webp",
     "title": "The White Cliffs",
     "location": "The Coast",
-    "text": "At the edge of England, the white cliffs rise above the sea. Behind him is home. Across the water is everything he has chosen.",
-    "button": "Head for the ferry"
+    "text": "At the coast, England is almost behind you. The white cliffs are the last familiar view before the crossing.",
+    "choices": [
+      "Watch the sea",
+      "Head to the ferry"
+    ]
   },
   {
     "image": "assets/scene-10.webp",
-    "title": "The Crossing",
+    "title": "The Ferry",
     "location": "English Channel",
-    "text": "The ferry moves away from the coast. For a while, Josh belongs to neither country. He belongs only to the journey.",
-    "button": "Watch the horizon"
+    "text": "The bike is parked and the sea stretches out around you. England is behind you now, and Europe is waiting on the other side.",
+    "choices": [
+      "Look at the cliffs",
+      "Look towards France"
+    ]
   },
   {
     "image": "assets/scene-11.webp",
     "title": "France",
     "location": "France",
-    "text": "New signs, new roads and a different language. The distance is still long, but the hardest part is already behind him: he has begun.",
-    "button": "Ride south"
+    "text": "A new country, new roads and a long way still to go. But the journey is moving forward exactly as planned.",
+    "choices": [
+      "Follow the signs",
+      "Continue south"
+    ]
   },
   {
     "image": "assets/scene-12.webp",
-    "title": "The Mountains",
-    "location": "The Alps",
-    "text": "The road climbs higher. The air becomes sharper, the landscape larger, and the border appears only one kilometre away.",
-    "button": "One more kilometre"
+    "title": "Towards the Alps",
+    "location": "The Mountains",
+    "text": "The road begins to climb and the landscape changes. The mountains make the journey feel bigger, but Italy is getting close.",
+    "choices": [
+      "Slow down for the view",
+      "Keep climbing"
+    ]
   },
   {
     "image": "assets/scene-13.webp",
-    "title": "Italy",
+    "title": "Italy, One Kilometre",
     "location": "The Border",
-    "text": "The sign finally appears. Italy. After every road and every border, the country he has imagined is now beneath his wheels.",
-    "button": "Enter Italy"
+    "text": "Then you see it: Italy, one kilometre. After all those roads, the country you have been travelling towards is finally in front of you.",
+    "choices": [
+      "Take it in",
+      "Cross the border"
+    ]
   },
   {
     "image": "assets/scene-14.webp",
-    "title": "Towards Umbria",
+    "title": "Welcome to Italy",
     "location": "Italy",
-    "text": "Mountains soften into hills. The roads become warmer, quieter and greener. Somewhere ahead, Francesca is waiting.",
-    "button": "Continue south"
+    "text": "You pass the border and enter Italy. The language changes, the signs change, and Terni is no longer impossibly far away.",
+    "choices": [
+      "Send me a message",
+      "Keep riding"
+    ]
   },
   {
     "image": "assets/scene-15.webp",
-    "title": "Terni",
+    "title": "Through Umbria",
     "location": "Umbria",
-    "text": "Then the city appears. Terni is no longer a name on a screen or a destination on a map. It is real, and he has made it.",
-    "button": "Enter the city"
+    "text": "The road runs through green hills and quiet countryside. This is the last part of the journey, and now you are very close.",
+    "choices": [
+      "Follow the road",
+      "Count the kilometres"
+    ]
   },
   {
     "image": "assets/scene-16.webp",
-    "title": "The View",
-    "location": "Above Terni",
-    "text": "Josh stops for a moment above the city. Behind him lies the entire journey. Below him lies the beginning of something new.",
-    "button": "Go to her"
+    "title": "Terni",
+    "location": "Terni",
+    "text": "At last, the sign appears. You have reached Terni. The city you had only seen through photos and video calls is finally real.",
+    "choices": [
+      "Enter the city",
+      "Look for me"
+    ]
   },
   {
     "image": "assets/scene-17.webp",
-    "title": "No More Distance",
-    "location": "Terni Station",
-    "text": "And there she is. No phone between them. No countdown. No airport goodbye waiting at the end of the day. Just open arms.",
-    "button": "Run to her"
+    "title": "Almost There",
+    "location": "Above Terni",
+    "text": "From above, you can see the whole city. After such a long road, there is only one place left to go.",
+    "choices": [
+      "Look at the view",
+      "Come and find me"
+    ]
   },
   {
     "image": "assets/scene-18.webp",
-    "title": "Our Streets",
-    "location": "Galleria del Corso",
-    "text": "They walk through Terni hand in hand. The city lights come on, and ordinary streets begin turning into shared memories.",
-    "button": "Walk together"
+    "title": "Finally",
+    "location": "Terni Station",
+    "text": "And then we finally see each other. No screen, no countdown and no distance between us anymore.",
+    "choices": [
+      "Open your arms",
+      "Come closer"
+    ]
   },
   {
     "image": "assets/scene-19.webp",
-    "title": "Home",
-    "location": "Terni",
-    "text": "They sit together as the sun disappears behind the hills. The journey has ended, but their life together is only beginning.",
-    "button": "Read the final message"
+    "title": "Together in Terni",
+    "location": "Galleria del Corso",
+    "text": "We walk through Terni hand in hand. After all those kilometres, this is the simple moment the whole journey was leading to.",
+    "choices": [
+      "Walk with me",
+      "Stay close"
+    ]
   },
   {
     "image": "assets/scene-20.webp",
-    "title": "For Josh",
+    "title": "For You",
     "location": "Together",
-    "text": "You crossed roads, borders and countries to reach me. But the most beautiful part was never the distance you travelled. It was the life we found when you arrived. Home is not where we started. Home is wherever we are together. I love you.",
-    "button": "Start again"
+    "text": "You travelled from Dorking to Terni, crossing roads, borders and countries to reach me. This little story is about your journey, but also about everything that brought us together. Thank you for choosing me, for making the distance feel worth it, and for becoming such an important part of my life. Wherever the road takes us next, I am happy that I get to travel it with you. I love you.",
+    "choices": [
+      "Read it again",
+      "Start from the beginning"
+    ]
   }
 ];
 
@@ -149,8 +209,8 @@ const title = document.getElementById("title");
 const text = document.getElementById("text");
 const locationLabel = document.getElementById("location");
 const counter = document.getElementById("counter");
+const choices = document.getElementById("choices");
 const backButton = document.getElementById("backButton");
-const nextButton = document.getElementById("nextButton");
 
 function renderScene() {
   const scene = scenes[current];
@@ -163,9 +223,27 @@ function renderScene() {
   text.textContent = scene.text;
   locationLabel.textContent = scene.location;
   counter.textContent = `${current + 1} / ${scenes.length}`;
-  nextButton.textContent = scene.button;
-
   backButton.disabled = current === 0;
+
+  choices.innerHTML = "";
+
+  scene.choices.forEach((label, index) => {
+    const button = document.createElement("button");
+    button.className = "choice";
+    button.type = "button";
+    button.textContent = label;
+
+    button.addEventListener("click", () => {
+      if (current < scenes.length - 1) {
+        current += 1;
+      } else {
+        current = index === 0 ? scenes.length - 1 : 0;
+      }
+      renderScene();
+    });
+
+    choices.appendChild(button);
+  });
 }
 
 backButton.addEventListener("click", () => {
@@ -175,22 +253,8 @@ backButton.addEventListener("click", () => {
   }
 });
 
-nextButton.addEventListener("click", () => {
-  if (current < scenes.length - 1) {
-    current += 1;
-  } else {
-    current = 0;
-  }
-  renderScene();
-});
-
 document.addEventListener("keydown", (event) => {
-  if (event.key === "ArrowRight" || event.key === "Enter") {
-    nextButton.click();
-  }
-  if (event.key === "ArrowLeft") {
-    backButton.click();
-  }
+  if (event.key === "ArrowLeft") backButton.click();
 });
 
 renderScene();
