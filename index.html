@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <title>From Dorking to Terni ❤️</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app" class="app">
+    <section id="startScreen" class="screen active">
+      <div class="hero-card">
+        <div class="mini-map" aria-hidden="true">
+          <span>🇬🇧 Dorking</span>
+          <div class="route-line"></div>
+          <span>🇮🇹 Terni</span>
+        </div>
+        <p class="eyebrow">A little adventure made with love</p>
+        <h1>From Dorking<br>to Terni</h1>
+        <p class="subtitle">Un viaggio attraverso persone, ricordi e piccoli gesti, fino alla persona che ti aspetta dall’altra parte.</p>
+        <button id="startBtn" class="primary-btn">Inizia il viaggio</button>
+        <p class="tiny">Meglio con l’audio attivo 🎧</p>
+      </div>
+    </section>
+
+    <section id="gameScreen" class="screen">
+      <header class="topbar">
+        <div class="progress-wrap">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <button id="soundBtn" class="icon-btn" aria-label="Attiva o disattiva audio">🔊</button>
+      </header>
+
+      <article class="scene-card">
+        <div id="sceneArt" class="scene-art"></div>
+        <div class="scene-content">
+          <div class="scene-meta">
+            <span id="sceneNumber"></span>
+            <span id="sceneLocation"></span>
+          </div>
+          <h2 id="sceneTitle"></h2>
+          <p id="sceneText"></p>
+          <div id="choices" class="choices"></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="endScreen" class="screen">
+      <div class="final-card">
+        <div class="heart">❤️</div>
+        <p class="eyebrow">Missione completata</p>
+        <h1>Sei arrivato a Terni</h1>
+        <p>Ma il vero traguardo non era una città.</p>
+        <p class="final-message">Eri tu che attraversavi ogni chilometro per arrivare da me.</p>
+        <div class="ticket">
+          <span>DORKING</span>
+          <strong>→</strong>
+          <span>TERNI</span>
+        </div>
+        <button id="letterBtn" class="primary-btn">Apri il messaggio finale</button>
+        <div id="loveLetter" class="love-letter hidden">
+          <p>Amore,</p>
+          <p>questo piccolo viaggio racconta solo una parte di quello che vedo in te: una persona capace di attraversare distanze, paure e giornate difficili pur di esserci.</p>
+          <p>Grazie per ogni chilometro, ogni chiamata, ogni risata e ogni volta in cui hai scelto noi.</p>
+          <p>Non vedo l’ora di vivere con te tutte le prossime tappe.</p>
+          <p class="signature">Con tutto il mio amore,<br>Francesca</p>
+        </div>
+        <button id="restartBtn" class="secondary-btn">Rigioca</button>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#f472b6"/><stop offset="1" stop-color="#fb7185"/></linearGradient></defs>
+<rect width="512" height="512" rx="110" fill="#111827"/>
+<path d="M256 420S80 320 80 190c0-70 84-108 176-20 92-88 176-50 176 20 0 130-176 230-176 230Z" fill="url(#g)"/>
+<text x="256" y="258" text-anchor="middle" font-size="88">✈️</text>
+</svg>
