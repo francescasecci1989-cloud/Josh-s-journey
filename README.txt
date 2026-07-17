@@ -1,20 +1,16 @@
-JOSH'S JOURNEY — FILES TO UPLOAD TO GITHUB
+JOSH'S JOURNEY — 20 SCENES
 
-Replace the old website files with everything contained in this folder:
+HOW TO UPDATE GITHUB
 
-index.html
-style.css
-script.js
-manifest.json
-assets/ (the entire folder with all seven .webp images)
+1. Open your GitHub repository: Josh-s-journey
+2. Delete or replace the old files.
+3. Upload:
+   - index.html
+   - style.css
+   - script.js
+   - the complete assets folder
+4. Commit the changes.
+5. Wait one or two minutes and refresh the GitHub Pages link.
 
 IMPORTANT:
-The files must be in the root of the GitHub repository.
-The assets folder must remain a folder.
-
-After uploading:
-1. Commit changes.
-2. Wait about one minute.
-3. Reload the GitHub Pages link.
-
-This version is entirely in English, uses the illustrated scenes instead of emoji, and includes the new emotional ending.
+Keep the assets folder exactly as it is. Do not upload the images outside it.

@@ -1,64 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#090d18">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1020">
   <title>Josh's Journey</title>
-  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main id="game" class="game" aria-live="polite">
-    <section id="intro" class="panel active intro">
-      <div class="intro-bg"></div>
+  <main id="game">
+    <section class="scene">
+      <div id="background" class="background"></div>
+      <img id="sceneImage" class="scene-image" alt="">
       <div class="shade"></div>
-      <div class="intro-copy">
-        <p class="kicker">A story made for Josh</p>
-        <h1>Josh's Journey</h1>
-        <p class="sub">From Dorking to Terni</p>
-        <button id="startBtn" class="primary">Begin the journey</button>
-      </div>
-    </section>
 
-    <section id="story" class="panel story">
-      <figure class="scene">
-        <img id="sceneImage" alt="">
-        <div class="image-shade"></div>
-        <figcaption>
-          <div class="progress"><span id="progressFill"></span></div>
-          <p id="chapter" class="chapter"></p>
-          <h2 id="title"></h2>
-          <div id="body" class="body"></div>
-          <div id="actions" class="actions"></div>
-        </figcaption>
-      </figure>
-    </section>
+      <header class="topbar">
+        <span id="counter">1 / 20</span>
+        <span id="location">Dorking</span>
+      </header>
 
-    <section id="ending" class="panel ending">
-      <div class="ending-bg"></div>
-      <div class="shade"></div>
-      <div class="ending-copy">
-        <p class="kicker">The journey ends here</p>
-        <div class="final-text">
-          <p>Every goodbye.</p>
-          <p>Every mile.</p>
-          <p>Every road.</p>
-          <p>Every moment of waiting.</p>
-          <p class="spacer">All of it led here.</p>
-          <p class="big">To us.</p>
+      <article class="panel">
+        <p class="kicker">JOSH'S JOURNEY</p>
+        <h1 id="title">The Beginning</h1>
+        <p id="text"></p>
+
+        <div class="controls">
+          <button id="backButton" class="back" type="button">Back</button>
+          <button id="nextButton" class="next" type="button">Begin the journey</button>
         </div>
-        <button id="letterBtn" class="primary">Read the final message</button>
-        <article id="letter" class="letter hidden">
-          <p>My love,</p>
-          <p>You crossed borders, roads and entire countries to reach me. But what moves me most is not the distance you travelled. It is the life you chose to build with me, one ordinary day at a time.</p>
-          <p>Thank you for every goodbye that became another beginning. For every journey. For every return. For choosing us, even when it was difficult.</p>
-          <p>I used to think home was a place.</p>
-          <p class="final-line">Now I know it is wherever we are together.</p>
-          <p class="signature">I love you.<br>Francesca</p>
-        </article>
-        <button id="restartBtn" class="secondary">Play again</button>
-      </div>
+      </article>
     </section>
   </main>
 
